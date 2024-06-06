@@ -7,19 +7,22 @@ nav_order: 1
 {: .warn}
 
 # Tools and Workflows in QGIS
+    
 
-This intermediate-level workshop is focused on common tools and workflows in QGIS. By the end of this workshop, participants will be able to set up a QGIS project, find and load data onto a basemap, edit vector data from inside the GIS interface, perform joins and selections, and answer spatial questions using basic vector analysis. Familiarity with GIS is prerequisite for this workshop.
+This intermediate-level workshop is focused on common tools and workflows in QGIS. Aims... Structure..l By the end of this workshop, participants will be able to set up a QGIS project, find and load data onto a basemap, edit vector data from inside the GIS interface, perform joins and selections, and answer spatial questions using basic vector analysis. 
+
+## Before the Workshop
+
+**Download QGIS** QGIS can be downloaded from [qgis.org's Downloads page](https://qgis.org/en/site/forusers/download.html). In most cases, you'll want to download and install the **Long term release** instead of the latest release - currently **QGIS 3.34.6 'Prizren'**. This will give you most of the functionality you'll need, without encountering the software bugs of newly released versions. [See here](https://ubc-library-rc.github.io/gis-intro-qgis/content/installing-qgis.html) for further guidance.
+<br>
+
+[QGIS Documentation](https://docs.qgis.org/3.34/en/docs/index.html)
+
+**Familiarity with the QGIS interface is prerequisite for this workshop.** Check out the Research Commons' [Map Production with QGIS](https://ubc-library-rc.github.io/gis-intro-qgis/) if you are new to GIS, or your background is in Esri ArcGIS products. 
 
 
 
-## Schedule
 
-| 0:00 | Welcome and using Zoom|
-| 0:05 | Introduction |  
-| 0:15 |  |
-| 0:30 |  |   
-| 0:45 |  |
-| 1:00 | Wrap-up and Discussion |
 
 #### GIS Resources at UBC:
 - General Informational website for all things UBC GIS: [gis.ubc.ca](http://gis.ubc.ca/)
