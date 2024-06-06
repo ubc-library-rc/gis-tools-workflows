@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Outline
+title: Introduction
 nav_order: 1
 ---
-
-## Note: this workshop is in development and not yet complete.
+#### this workshop is in development and not yet complete.
+{: .warn}
 
 # Tools and Workflows in QGIS
 
