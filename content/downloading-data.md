@@ -33,7 +33,7 @@ Practice finding data by downloading Vancouver's parks, and the geospatial datas
 The dataset might not be named simply 'parks' but 'parks and open spaces'. Wherever possible, download in .geoJSON format rather than shapefile. This reduces the size of the file and also allows you to quickly visualize the data and explore its properties in something like [geojson.io](https://geojson.io/#map=2/0/20). Unzip the downloaded file if needed, and move its contents to your workshop folder.
 
 
-[Vancouver](https://opendata.vancouver.ca/pages/home/)<br>
+[Vancouver](https://opendata.vancouver.ca/pages/home/) Polygon Representation <br>
 [Victoria](https://opendata.victoria.ca/) <br>
 [Toronto](https://open.toronto.ca/)<br>
 [Kelowna](https://opendata.kelowna.ca/)<br>
@@ -61,3 +61,4 @@ Use the [interactivemap](https://opendata.vancouver.ca/explore/dataset/orthophot
 
 Before moving on, make sure all downloaded files are unzipped and moved to your workshop data folder.
 {: .note}
+
