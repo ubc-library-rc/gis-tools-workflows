@@ -15,9 +15,9 @@ Save the project to a location (like the `qgis-workshop`  folder) and give it a 
 
 ![save as](./images/save-as_20240523.png)
 
-## QGIS Graphical User Interface (GUI)
+## Navigate the Graphical User Interface ([QGIS GUI](https://docs.qgis.org/3.34/en/docs/user_manual/introduction/qgis_gui.html#qgis-gui))
 
-[QGIS GUI](https://docs.qgis.org/3.34/en/docs/user_manual/introduction/qgis_gui.html#qgis-gui)
+
 
 ![qgis gui](./images/qgis-gui_20240523.png)
 
@@ -30,7 +30,7 @@ Save the project to a location (like the `qgis-workshop`  folder) and give it a 
 **Map Canvas or Map View** - Call it either one. This is where the map is displayed as layers are loaded. You can zoom/pan the map canvas as well as select features and other operations.
 
 
-## Interface Preferences 
+## Adjust Interface Preferences 
 You can change the look and feel of your GUI, as well as adjust default settings from **QGIS-LTR --> Preferences** or **Settings --> Options.** 
 
 To increase the size of icons and text on your interface, go to the **Settings** menu at the top of your screen and click on **Options**.
