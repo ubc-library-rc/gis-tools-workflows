@@ -7,40 +7,52 @@ parent: Project Setup
 
 # Downloading Data
 
-<!-- Note: Data in data folder; practice downloading from different sites. demo is on calgary but Vancouver dataset in data folder. Download data to qgis-workshop folder.  -->
+Today’s workshop will focus on municipal data repositories to practice searching and downloading data. This page will demonstrate downloading a dataset of public parks from Calgary's open data portal, then guide you through doing the same for Vancouver and one other city of your choice. You will also download Vancouver Business Licenses and an aerial image for a portion of Vancouver. 
 
-### When there's a map, there's geospatial data
-Downloading geospatial data from municipal data portals isn't always straightforward.It can be tricky to find the right buttons to press to downlaod the right file format. 
+
+## Example: Downloading Parks from Calgary's Open Data Portal
+Downloading geospatial data from municipal data portals isn't always straightforward. It can be tricky to find the right buttons to press to downlaod the right file format. Remember that if there's an interactive map visuzlizing geospatial data, there must be a way to access and download the data in a spatial format (shapefile, geodatabase, or geoJSON). 
 
 ![calgary data](./images/calgaray-data_20240519.png)
 
 
 ![calgary parks](./images/calgary-parks-search_20240519.png)
-    
+      
+
 ![calgary parks export](./images/calgary-parks-export_20240519.png)
+    
 
 ![calgary parks data source](./images/calgary-view-data-source_20240519.png)
-    
+
+
+
+Either geoJSON or shapefile will do. geoJSON is a smaller file, and you can 
+[see difference here](https://ubc-library-rc.github.io/gis-intro-leaflet/content/map-data.html)
 ![calgary parks](./images/calgary-export-geospatial-data_20240519.png)
+
 
 <br>
 
 # Practice finding & downloading data
 
 ## #1 Download Public Parks
-Practice finding data by downloading Vancouver's parks, and the geospatial dataset of parks from one other municipality. 
+Practice finding data by downloading Vancouver parks (Polygon Representation), *as well as* the geospatial dataset of parks from one other city. 
 
-The dataset might not be named simply 'parks' but 'parks and open spaces'. Wherever possible, download in .geoJSON format rather than shapefile. This reduces the size of the file and also allows you to quickly visualize the data and explore its properties in something like [geojson.io](https://geojson.io/#map=2/0/20). Unzip the downloaded file if needed, and move its contents to your workshop folder.
+The dataset might not be named simply 'parks' but 'parks and open spaces'. Wherever possible, download in .geoJSON format rather than shapefile. This reduces the size of the file and also allows you to quickly visualize the data and explore its properties in something like [geojson.io](https://geojson.io/#map=2/0/20). **Unzip the downloaded file if needed, and move its contents to your workshop folder.**
 
 
-[Vancouver](https://opendata.vancouver.ca/pages/home/) Polygon Representation <br>
+[Vancouver](https://opendata.vancouver.ca/pages/home/) <br>
+    
+
 [Victoria](https://opendata.victoria.ca/) <br>
 [Toronto](https://open.toronto.ca/)<br>
 [Kelowna](https://opendata.kelowna.ca/)<br>
 [Kamloops](https://mydata-kamloops.opendata.arcgis.com/)<br>
 [Calgary](https://data.calgary.ca/) <br>
+[Penticton](https://open.penticton.ca/)<br>
+[Halifax](https://data-hrm.hub.arcgis.com/pages/open-data-catalogue)<br>
+[Edmonton](https://data.edmonton.ca/)
 
-<!-- [Guelph](http://data.open.guelph.ca/) Note - when you go to resource - raw geojson. copy contents. go to [geojson.io](https://geojson.io/#map=2/0/20). delete contents on left hand column. paste your data in. save. <br> -->
 
 
 ## #2 Download Business Licenses 
