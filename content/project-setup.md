@@ -29,7 +29,6 @@ Save the project to a location (like the `qgis-workshop`  folder) and give it a 
 <br>
 **Map Canvas or Map View** - Call it either one. This is where the map is displayed as layers are loaded. You can zoom/pan the map canvas as well as select features and other operations.
 
-
 ## Adjust Interface Preferences 
 You can change the look and feel of your GUI, as well as adjust default settings from **QGIS-LTR --> Preferences** or **Settings --> Options.** 
 
@@ -40,4 +39,10 @@ To increase the size of icons and text on your interface, go to the **Settings**
 Resize the dialogue box so you can see the drop-down for "icon size" and "font." Icon changes will happen as soon as you click OK. Changes in font size won't update until you quit and restart QGIS, so make sure you save your project now. 
    
 ![system-preferences](./images/system-preferences.png)
+
+
+<!-- ## Project Properties
+(check what measurement units are under project properties -> general) 
+also where to go and look for project CRS all those other things you might need for other projects -->
+
 

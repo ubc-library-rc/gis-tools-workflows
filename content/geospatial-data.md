@@ -17,10 +17,7 @@ A third type of spatial data is **tabular data**. Tabular data are data formatte
 
 
 # Finding Data
-The data you'll need depends on your mapping objectives. Maybe you already have data. Maybe you want to create a reference map and all you need is contextual information and the ability to add some labels and markers. Perhaps your research lab is collecting and processing the data for you. Whether your area of interest is local or global, whether your final map will be static, interactive, or simply the results of some spatial analysis... these factors will influence where you look for data. Municipal and federal data repositories are a good place to begin looking for geospatial data. If you have access to a data repository, either through a group you’re working with/for or institutional library for example, reaching out to whoever coordinates on the matter can be useful. You can also begin with a web search and see what is returned. Lastly, in some cases you can make your own data. This is particularly true if you only need a reference point or simple boundary outline. 
-
-
-Today's workshop will focus on municipal data repositories to practice searching and downloading data. 
+The data you'll need depends on your mapping objectives. Maybe you already have data. Maybe you want to create a reference map and all you need is contextual information and the ability to add some labels and markers. Perhaps your research lab is collecting and processing the data for you. Whether your area of interest is local or global, whether your final map will be static, interactive, or simply the results of some spatial analysis... these factors will influence where you look for data. Municipal and federal data repositories are a good place to begin looking for geospatial data. If you have access to a data repository, either through a group you’re working with/for or institutional library for example, reaching out to whoever coordinates on the matter can be useful. You can also begin with a web search and see what is returned. Lastly, in some cases you can make your own data. This is particularly true if you only need a reference point or simple boundary outline. Today's workshop will focus on municipal data repositories to practice searching and downloading data. 
 
 
 ## Some Considerations 
