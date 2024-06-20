@@ -16,13 +16,36 @@ Once you’ve gathered your relevant data you are ready to add it to a QGIS proj
 
 ![add data](./images/add-data_20240608.png)
 
-<!--note about refreshing browser-->
+
 
 ## Add Data
-Add your 3 data layers to your qgis project. Hit okay to any warning dialogue boxes that appear. Your screen will look something like this...
+
+To Do
+{: .label .label-green }
+Add your 3 data layers to your QGIS project. Hit okay to any warning dialogue boxes that appear. Your screen will look something like this...
 
 ![added data](./images/added-data_20240608.png)
 
 
-Before moving on, save your project... 
+## Locating Layers
+- Layers in your Layers Panel will render in order from top to bottom. If you cannot see a layer added it's likely a) underneath another layer b) invisible or c) out of frame. Locate the layer you want to look at in your Layers Panel and try dragging it to the top of your list. Ensure the box to it's left is checked. You can hide a layer at any time by un-checking the box beside it. If you still don't see it, control-click (right-click) the layer and "zoom to Layer(s)". 
+- Sometimes you will might download a new dataset into your data folder but it won't appear in your folder within the Browser Panel. If this happens, try **refreshing** your directory connections in your Browser Panel either by clicking the Refresh icon or by control-clicking the folder in question.
+- If you move your data to a different folder location you will get an error when you next open your QGIS Project. Either allow QGIS to auto-find it, connect the new folder location, or move the data back. 
+
+<!-- <img src="./images/refresh-browser_20240620.png" style="width:50%;"> -->
+
+
+To Do
+{: .label .label-green }
+**Zoom to** aerial image of Vancouver. Then, use the magnifying tool (located in your Toolbar) to zoom in until you see the individual pixels. 
+
+
+<img src="./images/zoom-to-layer_20240620.png" style="width:100%;">
+<img src="./images/zoom-in1.png" style="width:100%;">
+<img src="./images/zoom-in2.png" style="width:100%;">
+
+
+    
+
+Before continuing on, save your project. 
 {: .note}
