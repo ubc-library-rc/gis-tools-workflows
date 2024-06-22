@@ -22,7 +22,7 @@ Once you’ve gathered your relevant data you are ready to add it to a QGIS proj
 
 To Do
 {: .label .label-green }
-Add your 3 data layers to your QGIS project. Hit okay to any warning dialogue boxes that appear. Your screen will look something like this...
+Add the parks data and aerial image to your QGIS project. Hit okay to any warning dialogue boxes that appear. Additionally, add `vancouver-parks`, `business-licenses`, and `vancouver-neighborhoods` from the workshop folder to your project. Your screen will look something like this...
 
 ![added data](./images/added-data_20240608.png)
 
@@ -49,3 +49,7 @@ To Do
 
 Before continuing on, save your project. 
 {: .note}
+
+---
+#### Resources for further exploration
+- [Exploring Map View - Useful Tools](https://docs.qgis.org/3.34/en/docs/user_manual/map_views/map_view.html#exploring-the-map-view)
