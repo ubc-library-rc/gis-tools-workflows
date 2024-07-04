@@ -7,12 +7,12 @@ parent: Project Setup
 
 # Downloading Data
 
-While the workshop folder you downloaded contains some data for Vancouver, knowing how to search for geospatial data and download it from the web is an important skill to have. Therefore, this page will guide you through downloading different types of data from municipal repositories. 
+While the workshop folder you downloaded contains some prepared data for Vancouver, knowing how to search for geospatial data and download it from the web is an important skill to have. Therefore, this page will guide you through downloading different kinds of geospatial data from municipal repositories. 
 <!-- Today’s workshop will focus on municipal data repositories to practice searching and downloading data. This page will demonstrate downloading a dataset of public parks from Calgary's open data portal, then guide you through doing the same for Vancouver and one other city of your choice. You will also download Vancouver Business Licenses and an aerial image for a portion of Vancouver.  -->
 
 
 ## Example: Downloading Parks from Calgary's Open Data Portal
-Downloading geospatial data from municipal data portals isn't always straightforward. It can be tricky to find the right buttons to press to downlaod the right file format. Remember that if there's an interactive map vizualizing geospatial data, there must be a way to access and download the data in a spatial format (shapefile, geodatabase, or geoJSON). 
+Downloading geospatial data from municipal data portals isn't always straightforward. It can be tricky to find the right buttons to press to downlaod the right file format. Remember that if there's an interactive map vizualizing geospatial data, there is likely a way to access and download the data in a spatial format (e.g., shapefile, geodatabase, or geoJSON). 
 
 ![calgary data](./images/calgaray-data_20240519.png)
 
@@ -32,15 +32,17 @@ Either geoJSON or shapefile will do.
 [see difference here](https://ubc-library-rc.github.io/gis-intro-leaflet/content/map-data.html) -->
 ![calgary parks](./images/calgary-export-geospatial-data_20240519.png)
 
+---
 
-<br>
 
-# Practice finding & downloading data
+
+
+
+# Practice 
 
 ## #1 Download Public Parks
-Practice downloading geospatial data of public parks from a city of your choice. Note: The dataset might not be named simply 'parks' but 'parks and open spaces'. Wherever possible, download in .geoJSON format rather than shapefile. This reduces the size of the file and also allows you to quickly visualize the data and explore its properties in something like [geojson.io](https://geojson.io/#map=2/0/20). Make sure to **Unzip the downloaded file if needed, and move its contents to your workshop folder.**
+Practice downloading geospatial data for public parks of the city of your choice. Note: The dataset might not be named simply 'parks'; it could be 'parks and open spaces'. Download the dataset in either .geoJSON or shapefile format. Make sure to **Unzip the downloaded file if needed, and move it to your workshop folder.**
 
-    
 
 [Victoria](https://opendata.victoria.ca/) <br>
 [Toronto](https://open.toronto.ca/)<br>
@@ -62,7 +64,8 @@ Use the filter function on the lefthand panel to download only **Restaurants** w
 
 
 ## #2 Download Aerial Imagery
-Use the [interactivemap](https://opendata.vancouver.ca/explore/dataset/orthophoto-imagery-2015/map/?location=11,49.26624,-123.11794) to download the aerial imagery for 1 grid tile of Vancouver. To do so, click the tile and download the zip folder under the field `MRSID_URL`. **Unzip** the downloaded file and move it's contents to your workshop folder. 
+Use the [interactivemap](https://opendata.vancouver.ca/explore/dataset/orthophoto-imagery-2015/map/?location=11,49.26624,-123.11794) to download the aerial imagery for 1 grid tile of Vancouver. To do so, click the tile and download the zip folder under the field `MRSID_URL`. **Unzip** the downloaded file and move it to your workshop folder. 
+<!-- https://opendata.vancouver.ca/explore/dataset/orthophoto-imagery-2022/map/?location=12,49.27296,-123.12841 -->
 
 ![export orthophoto](./images/export-orthophoto_20240608.png)
 
