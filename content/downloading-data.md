@@ -10,6 +10,7 @@ parent: Project Setup
 While the workshop folder you downloaded contains some prepared data for Vancouver, knowing how to search for geospatial data and download it from the web is an important skill to have. Therefore, this page will guide you through downloading different kinds of geospatial data from municipal repositories. 
 <!-- Today’s workshop will focus on municipal data repositories to practice searching and downloading data. This page will demonstrate downloading a dataset of public parks from Calgary's open data portal, then guide you through doing the same for Vancouver and one other city of your choice. You will also download Vancouver Business Licenses and an aerial image for a portion of Vancouver.  -->
 
+[Download Workshop Data](./qgis-workshop.zip){: .btn .btn-blue }
 
 ## Example: Downloading Parks from Calgary's Open Data Portal
 Downloading geospatial data from municipal data portals isn't always straightforward. It can be tricky to find the right buttons to press to downlaod the right file format. Remember that if there's an interactive map vizualizing geospatial data, there is likely a way to access and download the data in a spatial format (e.g., shapefile, geodatabase, or geoJSON). 
