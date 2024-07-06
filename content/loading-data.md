@@ -28,9 +28,9 @@ Once you’ve gathered your relevant data, the next step is to add it to a QGIS 
 To Do
 {: .label .label-green }
 
-Add the parks data and aerial image to your QGIS project. Additionally, add `vancouver-parks`, `business-licenses`, and `vancouver-neighborhoods` from the workshop folder to your project. Ignore any warnings that appear by clicking "okay" or confirming you want to "add layers". Your screen will look something like this...
+Add the parks data and aerial image to your QGIS project. Additionally, add `vancouver-parks.shp`, `jonathan-rogers-park.shp`, `vancouver-neighborhoods.shp`, `mount-pleasant.shp`, and `business-licenses.shp` from the workshop folder to your project. Ignore any warnings that appear by clicking "okay" or confirming you want to "add layers". Your screen will look something like this...
 
-![added data](./images/added-data_20240608.png)
+![added data](./images/added-data_20240706.png)
 
 
 ### Locating Layers
@@ -46,7 +46,8 @@ To Do
 **Zoom to** aerial image of Vancouver. Then, use the magnifying tool (located in your Toolbar) to zoom in until you see the individual pixels. 
 
 
-<img src="./images/zoom-to-layer_20240620.png" style="width:100%;">
+<img src="./images/zoom-to-image_20240706.png" style="width:100%;">
+
 <img src="./images/zoom-in1.png" style="width:100%;">
 <img src="./images/zoom-in2.png" style="width:100%;">
 

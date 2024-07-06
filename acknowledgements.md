@@ -8,7 +8,7 @@ nav_order: 50
 ## Workshop Website
 This Workshop was authored by Lily Demet. 
 
-Site template adapted from the [just-the-docs](https://github.com/pmarsceill/just-the-docs) Jekyll template created by [Patrick Marsceil](https://github.com/pmarsceill) and available under the [MIT License](http://opensource.org/licenses/MIT).
+The site template is adapted from the [just-the-docs](https://github.com/pmarsceill/just-the-docs) Jekyll template created by [Patrick Marsceil](https://github.com/pmarsceill) and available under the [MIT License](http://opensource.org/licenses/MIT).
 
 
 ## Land acknowledgement

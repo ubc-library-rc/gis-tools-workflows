@@ -40,7 +40,13 @@ The [Project Properties](https://docs.qgis.org/3.34/en/docs/user_manual/introduc
 
 Under **General** properties, make note of the units for area measurement. 
 
-![project properties general](./images/project-properties-general_20240622.png)
+![project properties general](./images/project-properties-general_20240706.png)
+    
+
+    
+Under **CRS** properties, ensure the project coordinate reference system (CRS) is set to `WGS_1984_Web_Mercator_Auxiliary_Sphere`. 
+
+![project properties general](./images/project-properties-crs_20240706.png)
 
 
 ## Interface Preferences 
