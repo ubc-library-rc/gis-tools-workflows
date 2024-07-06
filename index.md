@@ -14,12 +14,14 @@ This intermediate-level workshop is focused on common tools and workflows in QGI
 
 ## Before the Workshop
 
-**Download QGIS!** QGIS can be downloaded from [qgis.org's Downloads page](https://qgis.org/en/site/forusers/download.html). In most cases, you'll want to download and install the **Long term release** instead of the latest release - currently **QGIS 3.34.6 'Prizren'**. This will give you most of the functionality you'll need, without encountering the software bugs of newly released versions. [See here](https://ubc-library-rc.github.io/gis-intro-qgis/content/installing-qgis.html) for further guidance.
+1. **Download QGIS!** QGIS can be downloaded from [qgis.org's Downloads page](https://qgis.org/en/site/forusers/download.html). In most cases, you'll want to download and install the **Long term release** instead of the latest release - currently **QGIS 3.34.6 'Prizren'**. This will give you most of the functionality you'll need, without encountering the software bugs of newly released versions. [See here](https://ubc-library-rc.github.io/gis-intro-qgis/content/installing-qgis.html) for further guidance.
 <br>
 
-**Familiarity with the QGIS interface is prerequisite for this workshop.** Check out the Research Commons' [Map Production with QGIS](https://ubc-library-rc.github.io/gis-intro-qgis/) if you are new to GIS, or your background is in Esri ArcGIS products. You can also browse the QGIS Documentation's [Getting Started](https://docs.qgis.org/3.34/en/docs/user_manual/introduction/getting_started.html) for a refresher. 
+2. **Familiarity with the QGIS interface is prerequisite for this workshop.** Check out the Research Commons' [Map Production with QGIS](https://ubc-library-rc.github.io/gis-intro-qgis/) if you are new to GIS, or your background is in Esri ArcGIS products. You can also browse the QGIS Documentation's [Getting Started](https://docs.qgis.org/3.34/en/docs/user_manual/introduction/getting_started.html) for a refresher. 
 
-
+3. **Download Workshop Data**
+    
+> [Download Workshop Data](./qgis-workshop.zip){: .btn .btn-blue }
 
 ---
 #### GIS Resources at UBC:
