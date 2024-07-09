@@ -21,7 +21,7 @@ This intermediate-level workshop is focused on common tools and workflows in QGI
 
 3. **Download Workshop Data**
     
-> [Download Workshop Data](./qgis-workshop.zip){: .btn .btn-blue }
+> [Download Workshop Data](./content/qgis-workshop.zip){: .btn .btn-blue }
 
 ---
 #### GIS Resources at UBC:
