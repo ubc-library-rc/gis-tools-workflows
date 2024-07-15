@@ -3,9 +3,6 @@ layout: default
 title: Introduction
 nav_order: 1
 ---
-#### this workshop is in development and not yet complete.
-{: .warn}
-
 # Tools and Workflows in QGIS
     
 
