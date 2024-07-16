@@ -76,7 +76,7 @@ The Analysis cluster contains vector tools for performing basic statistical anal
 
 To Do
 {: .label .label-green }
-- **Count points in polygon** will add up the total features in a point layer that fall inside each feature of a polygon layer. The result will be appended to the attribute table of the polygon layer. For example, count the number of restaurants (`business-licences`) in each Vancouver neighborhood. Which neighborhood has the most businesses? 
+- **Count points in polygon** will add up the total features in a point layer that fall inside each feature of a polygon layer. The result will be appended to the attribute table of the polygon layer. For example, count the number of restaurants (`business-licences`) in each Vancouver neighborhood. Which neighborhood has the most restaurants? 
 
 
 ## Research
