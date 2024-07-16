@@ -12,7 +12,7 @@ While the workshop folder you downloaded contains some prepared data for Vancouv
 
 [Download Workshop Data](./qgis-workshop.zip){: .btn .btn-blue }
 
-## Example: Downloading Parks from Calgary's Open Data Portal
+## Example: Downloading Parks from Calgary's [Open Data Portal](https://data.calgary.ca/browse?q=parks&sortBy=relevance)
 Downloading geospatial data from municipal data portals isn't always straightforward. It can be tricky to find the right buttons to press to downlaod the right file format. Remember that if there's an interactive map vizualizing geospatial data, there is likely a way to access and download the data in a spatial format (e.g., shapefile, geodatabase, or geoJSON). 
 
 ![calgary data](./images/calgaray-data_20240519.png)
