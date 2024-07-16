@@ -76,7 +76,7 @@ The Analysis cluster contains vector tools for performing basic statistical anal
 
 To Do
 {: .label .label-green }
-- **Count points in polygon** will add up the total features in a point layer that fall inside each feature of a polygon layer. The result will be appended to the attribute table of the polygon layer. For example, count the number of business licences in each Vancouver neighborhood. Which neighborhood has the most businesses? 
+- **Count points in polygon** will add up the total features in a point layer that fall inside each feature of a polygon layer. The result will be appended to the attribute table of the polygon layer. For example, count the number of restaurants (`business-licences`) in each Vancouver neighborhood. Which neighborhood has the most businesses? 
 
 
 ## Research
@@ -86,7 +86,7 @@ The Research cluster of Vector tools --> Selections and generating random points
 
 To Do
 {: .label .label-green }
-- Use **Select within Distance** to select all businesses within 1 kilometer of Jonathan Rogers park. 
+- Use **Select within Distance** to select all restaurants (`business-licences`) within 1 kilometer of Jonathan Rogers park (`jonathan-rogers-park`). 
 - Use **Select by Location** to find all Vancouver parks that are *within* Mount Pleasant. 
 
 
