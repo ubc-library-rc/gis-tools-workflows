@@ -43,7 +43,9 @@ Under **General** properties, make note of the units for area measurement.
 ![project properties general](./images/project-properties-general_20240706.png)
     
 
-    
+To Do
+{: .label .label-green }
+
 Under **CRS** properties, ensure the project coordinate reference system (CRS) is set to `WGS_1984_Web_Mercator_Auxiliary_Sphere`. 
 
 ![project properties general](./images/project-properties-crs_20240706.png)
