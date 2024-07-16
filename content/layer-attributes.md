@@ -55,7 +55,8 @@ Order the parks by area in descending order. Select the park with the greatest a
 
 In your **Layers Panel**, right-click your parks layer and choose **Export** **-->** **Save Selected Features As...**. Save the selected park to your workshop folder with the name of the park as its filename. 
 
-Clear your selection in the Attribute Table <img src="./images/clear-selection-icon.png" style="width:4%;">, close the Attribute Table, and return to the main QGIS interface. 
+### Clear selection
+Clear your selection in the Attribute Table <img src="./images/clear-selection-icon.png" style="width:4%;">, close the Attribute Table, and return to the main QGIS interface. You can also clear your selection from the main QGIS Interface using the same icon from the main toolbar. 
 
 
 
