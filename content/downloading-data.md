@@ -7,7 +7,7 @@ parent: Project Setup
 
 # Downloading Data
 
-While the workshop folder you downloaded contains some prepared data for Vancouver, knowing how to search for geospatial data and download it from the web is an important skill to have. Therefore, this page will guide you through downloading different kinds of geospatial data from municipal repositories. 
+While the workshop folder you downloaded contains some prepared data for Vancouver, knowing how to search for geospatial data and download it from the web is an important skill to have. Therefore, this page will guide you through downloading different kinds of geospatial data from municipal repositories. If you haven't already:
 <!-- Today’s workshop will focus on municipal data repositories to practice searching and downloading data. This page will demonstrate downloading a dataset of public parks from Calgary's open data portal, then guide you through doing the same for Vancouver and one other city of your choice. You will also download Vancouver Business Licenses and an aerial image for a portion of Vancouver.  -->
 
 [Download Workshop Data](./qgis-workshop.zip){: .btn .btn-blue }
