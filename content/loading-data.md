@@ -28,7 +28,7 @@ Once you’ve gathered your relevant data, the next step is to add it to a QGIS 
 To Do
 {: .label .label-green }
 
-Add the parks data and aerial image to your QGIS project. Additionally, add `vancouver-parks.shp`, `jonathan-rogers-park.shp`, `vancouver-neighborhoods.shp`, `mount-pleasant.shp`, and `business-licenses.shp` from the workshop folder to your project. Ignore any warnings that appear by clicking "okay" or confirming you want to "add layers". Your screen will look something like this...
+Add the parks data and aerial image to your QGIS project. Additionally, add `vancouver-parks.shp`, `jonathan-rogers-park.shp`, `vancouver-neighborhoods.shp`, `mount-pleasant.shp`, and `business-licenses.shp` from the workshop folder to your project. `business-licenses.shp` contains restaurants with issued licenses from all of Vancouver [business licenses](https://opendata.vancouver.ca/explore/dataset/business-licences/information/?disjunctive.status&disjunctive.businesssubtype). Ignore any warnings that appear by clicking "okay" or confirming you want to "add layers". Your screen will look something like this...
 
 ![added data](./images/added-data_20240706.png)
 
