@@ -8,6 +8,9 @@ nav_order: 5
 
 This page will introduce some common vector tools for spatial analysis workflows. Vector tools can be accessed from the **Vector** menu, and are grouped by task: Geoprocessing, Geometry, Analysis, Research, and Data Management. You can also search for vector tools (and any other tool, for that matter) by name from the **Processing Toolbox**. The  Processing Toolbox is a panel that can be opened from **Processing** menu at the top of your screen.
 
+If for some reason you can't find the Processing Toolbox, you may have to enable the processing plugin. In the main menu bar at the top of your screen, click on **Plugins**, then click on **Manage and Install Plugins…**. On the search bar, type in Processing. Select the Processing box and then click Close. You should now see the Toolbox icon and be able to proceed with the next steps.
+{: .note}
+
 
 Before we begin exploring vector tools, let's get on the same page. Load the following datasets to your QGIS project if not already added, and zoom to Vancouver: `vancouver-parks`,  `jonathan-rogers-park`, and `vancouver-neighborhoods`, `mount-pleasant`, and `business-licences`. Re-order the Layers panel and adjust the layers' symbology until each layer is visible. Your screen will look something like this:
     
