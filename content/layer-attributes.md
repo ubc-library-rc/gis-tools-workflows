@@ -11,7 +11,7 @@ Right-click (control-click) the parks layer of your choice and open the **Attrib
 <!-- ![open att table](./images/open-att-table_20240620.png) -->
 <img src="./images/van-parks-att-table.png" style="width:100%;">
 
-- At the top of the **Attribute Table** you will see the number of features loaded and the number selected. There are a total of 125 parks in the dataset downloaded for Guelph. 
+- At the top of the **Attribute Table** you will see the number of features loaded and the number selected. There are a total of 245 parks in the dataset downloaded for Vancouver. 
 
 - You can sort columns by ascending/descending (number value or alphabetically) by simply clicking the column headings.  
 
