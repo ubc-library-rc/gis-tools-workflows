@@ -21,6 +21,6 @@ We'd like to acknowledge the indigenous lands where we are located. The UBC Vanc
 
 Please take a moment to explore [native-land.ca](https://native-land.ca/) so that you can visualize the indigenous territories, languages, and treaties in your area.
 
-<iframe src="https://native-land.ca/api/embed/embed.html?maps=territories&position=49.268264,-123.157480" style="width:100%; height:300px; border:none;"></iframe>
+<iframe src="https://native-land.ca/api/embed/embed.html?maps=territories&position=49.244770894278666, -123.16698232306474&key=AADlPNbKCBAepz816odRT" style="width:100%; height:400px; border:none;"></iframe>
 
 
