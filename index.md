@@ -5,19 +5,19 @@ nav_order: 1
 ---
 # Tools and Workflows in QGIS
 
-This intermediate-level workshop is focused on common tools and workflows in QGIS. Building on basic familiarity with the QGIS interface, participants will be guided through setting up a QGIS project, finding and downloading geospatial data from the web, loading data layers onto a basemap, and selecting and editing attribute data to answer spatial questions. By the end of this workshop, participants will be equipped with the skills and resources to make reference maps and perform basic spatial analysis on their own. 
+This intermediate-level workshop is focused on common tools and workflows in QGIS. Building on basic familiarity with the QGIS interface, participants will be guided through setting up a QGIS project, finding and downloading geospatial data from the web, loading data layers onto a basemap, and selecting and editing attribute data to answer spatial questions.  **Familiarity with the QGIS interface is prerequisite for this workshop.**
 
 
 ## Before the Workshop!!
 
 1. **Review our Introduction to Mapmaking with QGIS** Please note that the fundamental skills and concepts pertaining to spatial data, map types, and the QGIS interface will *not be* covered during this workshop. Therefore, prior to the workshop date, please review our *[Introduction to Mapmaking with QGIS](https://ubc-library-rc.github.io/gis-mapping-intro/){:target="_blank"}*. **Review of this resources *is required* prior to workshop attendance.** 
-<!-- 1. **Familiarity with the QGIS interface is prerequisite for this workshop.** -->
+
 
 2. **Make sure you've downloaded QGIS** QGIS can be downloaded from [qgis.org's Downloads page](https://qgis.org/en/site/forusers/download.html){:target="_blank"}. In most cases, you'll want to download and install the **Long term release** instead of the latest release. This will give you most of the functionality you'll need without encountering the software bugs of newly released versions. See <a href="https://ubc-library-rc.github.io/gis-dhsi/software-download.html" target="_blank"><b>here</b></a> for further guidance on installing QGIS. 
 
 3. **Download and unzip the workshop data folder** below. Download it to a folder on your physical computer, such as Desktop or Downloads, _not_ OneDrive.
     
-> [Download Workshop Data](https://ubc-library-rc.github.io/gis-tools-workflows/content/qgis-workshop.zip){: .btn .btn-blue }
+> [Download Workshop Data](https://ubc-library-rc.github.io/gis-tools-workflows/qgis-tools-workshop.zip){: .btn .btn-blue }
 
 <br>
 
