@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Add a Basemap
-nav_order: 1
+title: 4. Add a Basemap
+nav_order: 4
 parent: Project Setup
 ---
 
@@ -60,11 +60,4 @@ If you cannot find the plugin "Next GIS Quick Map Services" only "Quick Map Serv
 
 
 <br>
-
-<!-- ---
-
-#### Resources for further exploration
-
-- Many basemaps that are hosted by web services are tile layers. This means they are a collection of static images ([map tiles](https://ubc-library-rc.github.io/gis-intro-leaflet/content/leaflet-basemap.html)) that are loaded as you zoom in and out on your screen. Therefore, you can also connect a basemap as an XYZ tile connection. [This video](https://www.youtube.com/watch?v=ht7tgmuwkpA) demonstrates how. 
- -->
 
