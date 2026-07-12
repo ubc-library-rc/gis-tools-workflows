@@ -291,14 +291,20 @@ Slightly different than the above tool, **[Select within distance](https://docs.
 # Designing Workflows
 Now it's time to put everything you learned together by designing workflows to answer spatial questions. Using the tools above, think through how you might solve for the following... 
 
-<!-- *1*{: .circle .circle-purple} Instead of using the tool "Select within distance", how could you use clip and buffer to find out the number of bus stops within 50 meters of a historic public bath?
+<!-- *1*{: .circle .circle-purple} How would you determine Instead of using the tool "Select within distance", how could you use clip and buffer to find out the number of bus stops within 50 meters of a historic public bath?
 
 *2*{: .circle .circle-purple}
  -->
 
-*3*{: .circle .circle-purple} Create a layer that visualizes areas of Vancouver that are NOT within 300 meters of a park. 
+*1*{: .circle .circle-purple} Create a layer that visualizes areas of Vancouver that are NOT within 300 meters of either a cultural center or public art feature. 
 
-*4*{: .circle .circle-purple} Which Vancouver neighborhood has the fewest total parks? 
+
+*2*{: .circle .circle-purple} Which Vancouver neighborhood has the fewest total parks?
+
+
+*3*{: .circle .circle-purple} Which census tracts have a cultural center? 
+
+
 
 <!-- centroids of parks, count points in polygons (parks) then check attribute table -->
 
