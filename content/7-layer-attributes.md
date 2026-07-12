@@ -64,6 +64,8 @@ Clear your selection in the Attribute Table <img src="./images/clear-selection-i
 
 <!-- note- The <code><b>Attribute Table</b></code> contains many useful clues for troubleshooting. Checking the attribute table as soon as you load a new layer will give you a sense if your data is in tact and what you might need to modify.  -->
 
+
+
 ---
 #### Resources for working with the Attribute Table
 - [QGIS Documentation for Working with the Attribute Table](https://docs.qgis.org/3.44/en/docs/user_manual/working_with_vector/attribute_table.html#index-0){:target="_blank"}

@@ -60,8 +60,7 @@ Because our data is all organized in a single folder, we you can drag and drop t
 
 ### Set the Project CRS
 
-Your map might look a little wonky or warped. This is a projection issue. Each spatial dataset you add as a layer to your QGIS comes with it's unique CRS, or Coordinate Reference System, which tells GIS how to visualize information pertaining to the 3-dimensional Earth in the 2-dimensional screen-space of your computer. Representing the earth in two dimensions necessarily involves distortion. While there are numerous Coordinate Reference Systems available (and you can even create your own), each has it's advantages given what is being mapped — the whole world, a specific country or city, the polar regions, ocean navigation, area comparisons, etc. — because of their differential preservation of distance, direction, area, size, angles, and/or shape. 
-<!-- A CRS is comprised of a Geographic Coordinate System (Datum, measured in decimal degrees) and a Projected Coordinate System (Projection, distance measured in metric units).  -->
+Your map might look a little wonky or warped. This is a projection issue. Each spatial dataset you add as a layer to your QGIS comes with it's unique CRS, or Coordinate Reference System, which tells GIS how to visualize information pertaining to the 3-dimensional Earth in the 2-dimensional screen-space of your computer. A CRS is comprised of a Geographic Coordinate System (or GCS, measured in decimal degrees) and, often though not necessarily, a Projected Coordinate System (or PCS, measured in metric units). (See [here](https://colorado.pressbooks.pub/makingmaps/chapter/chapter-9-datums-coordinate-systems-and-map-projections/){:target="_blank"} for more.) Representing the earth in two dimensions necessarily involves distortion. While there are numerous Coordinate Reference Systems available (and you can even create your own), each has it's advantages given what is being mapped — the whole world, a specific country or city, the polar regions, ocean navigation, area comparisons, etc. — because of their differential preservation of distance, direction, area, size, angles, and/or shape. 
 
 
 Now it's is not unusual to add multiple layers to a QGIS project, each having a different CRS. The trick is to set your QGIS Project CRS to the CRS best suited to your location and topic of mapping. That way, QGIS will reproject all the project layers "on the fly" to match a single projection. Note that this doesn't change the CRS of individual layers — it simply reprojects them while they are inside this one specific QGIS Project. 
@@ -88,7 +87,7 @@ Note: You can also see the same CRS, although designated `EPSG:4326`, is visible
 
 <br>
 
-> Let's first change the CRS to something specific to Vancouver. In the Filter searchbar at the top of the window, copy/paste in the following CRS: `NAD83 / UTM zone 10N`. 
+> Let's first change the CRS to something specific to Vancouver. In the Filter search bar at the top of the window, copy/paste in the following CRS: `NAD83 / UTM zone 10N`. 
 
 <img src="./images/load-data4.png" style="width:100%">
 
