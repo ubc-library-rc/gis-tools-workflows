@@ -5,6 +5,7 @@ nav_order: 3
 ---
 # Layer Properties
 
+
 > In your **Layers Panel**, zoom to the parks data you downloaded yourself. The workshop material will use Vancouver parks for demonstration. 
 
 <img src="./images/layer1.png" style="width:100%;">
@@ -76,7 +77,59 @@ Add labels for the names of parks to your map.
 
 <img src="./images/layer6.png" style="width:100%;">
 
----
+<br>
+
+
+## JOIN
+Joins create a connection between two layers, appending the attribute information from one layer to another. To add a join, there must be a shared field between the two layers that matches exactly. 
+
+Let's join the information on artists from the file `public-art-artists.csv` to our spatial layer, `public-art`. 
+
+
+
+To Do
+{: .label .label-green }
+
+To add a join, go to the Layer Properties of the layer you want to append information *to*. 
+
+>* Drag `public-art-artists.csv` to your QGIS Project. 
+
+>* Open the Attribute Tables of both `public-art-artists` and `public-art`. Which Fields match? Are they both formatted the same data type?
+
+>* Open the **Properties** of `public-art` and go to the **Joins** property. You'll see there are no current joins to this layer. Click the green plus icon to add a new join.
+
+<img src="./images/layer7.png" style="width:90%;">
+
+
+A new window will pop up. This window is easily lost behind other QGIS windows.
+
+<br>
+
+
+>* The **Join layer** will be `public-art-artists`
+>* The **Join field**, the field of `public-art-artists` that matches one in `public-art`, will be `ArtistID`
+>* The **Target field** will be `artists`
+>* IMPORTANTLY, Check **Joined fields**. Here' you can select which fields you want to join from `public-art-artists`. 
+
+<br>
+<img src="./images/layer8.png" style="width:70%;">
+
+<br>
+
+
+>* Click **OK** and **OK** again to run the **Join**. 
+
+>* Open the Attribute Table of `public-art` to confirm the Join was successful. You can remove a join at any time. 
+
+
+<br>
+
+
+
+<img src="./images/save-icon.png" style="width:6%">SAVE your project. 
+
+
+<!-- ---
 #### Resources for further exploration
 - [Comprehensive descriptions for all Vector Layer Properties](https://docs.qgis.org/3.44/en/docs/user_manual/working_with_vector/vector_properties.html#){:target="_blank"}
-- [Working with Vector Data in QGIS](https://docs.qgis.org/3.44/en/docs/user_manual/working_with_vector/index.html){:target="_blank"}
+- [Working with Vector Data in QGIS](https://docs.qgis.org/3.44/en/docs/user_manual/working_with_vector/index.html){:target="_blank"} -->
