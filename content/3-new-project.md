@@ -17,7 +17,7 @@ parent: Project Setup
 
 To save your project, navigate to the `Project` Menu at the stop of your screen and go down to "Save". 
 
-> - Save the project to a location (like the `qgis-workshop`  folder) and give it a name such as `tools-workshop_FirstnameLastname`. It's best practice to save your QGIS projects to the folder where you keep your data for the project. You'll notice the file extension is `.qgz`. You can learn more about QGIS file formats [here](https://docs.qgis.org/3.44/en/docs/user_manual/appendices/qgis_file_formats.html){:target="_blank"}.
+> - When you Save a project (or a dataset, for that matter), you need to give it both a *name* and a *location*. It's best practice to save your QGIS projects to the folder where you keep your data for the project. So: save the project to your  `qgis-tools-workshop` folder and give it a name such as `qgis-workshop_FirstnameLastname`. You'll notice the file extension is `.qgz`. You can learn more about QGIS file formats [here](https://docs.qgis.org/3.44/en/docs/user_manual/appendices/qgis_file_formats.html){:target="_blank"}.
 
 ![save as](./images/setup1.png)
 
@@ -64,7 +64,7 @@ The application Options window looks like the image below. Most customizations y
 <!--Double check this works if i then add some other dataset-->
 
 ## Project Properties
-The [Project Properties](https://docs.qgis.org/3.34/en/docs/user_manual/introduction/qgis_configuration.html#project-properties){:target="_blank"} provide useful information about your QGIS project, such as it's Coordinate Reference System (CRS). Although the different data layers you add to a QGIS project may have different projections, QGIS will reproject everything 'on the fly' to match the Project CRS. Setting the project CRS doesn’t change the stored projections of each layer, only how they are rendered by QGIS. 
+The [Project Properties](https://docs.qgis.org/3.44/en/docs/user_manual/introduction/qgis_configuration.html#project-properties){:target="_blank"} provide useful information about your QGIS project, such as it's Coordinate Reference System (CRS). Although the different data layers you add to a QGIS project may have different projections, QGIS will reproject everything 'on the fly' to match the Project CRS. Setting the project CRS doesn’t change the stored projections of each layer, only how they are rendered by QGIS. 
 
 Under **General** properties, make note of the units for area measurement. 
 
@@ -83,7 +83,7 @@ Under **CRS** properties, ensure the project coordinate reference system (CRS) i
 
 ---
 #### Resources for Project Setup
-- [Exploring the Map View and Toolbar](https://docs.qgis.org/3.44/en/docs/user_manual/map_views/map_view.html#exploring-the-map-view)
+- [Exploring the Map View and Toolbar](https://docs.qgis.org/3.44/en/docs/user_manual/map_views/map_view.html#exploring-the-map-view){:target="_blank"}
 - [QGIS GUI comprehensive documentation](https://docs.qgis.org/3.44/en/docs/user_manual/introduction/qgis_gui.html#qgis-gui){:target="_blank"}
 - [QGIS Configuration](https://docs.qgis.org/3.44/en/docs/user_manual/introduction/qgis_configuration.html#){:target="_blank"}
 - [QGIS Project Properties](https://docs.qgis.org/3.44/en/docs/user_manual/introduction/qgis_configuration.html#project-properties){:target="_blank"}
