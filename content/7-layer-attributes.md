@@ -30,7 +30,7 @@ What if you wanted to have QGIS calculate the area of each park? This requires e
 
 *1*{: .circle .circle-purple} Toggle editing mode. <img src="./images/toggle-edit-icon.png" style="width:4%;"> When editing mode is toggled on you will also see the little pencil in the layers panel. 
 
-*2*{: .circle .circle-purple} Now open the [Field Calculator](https://docs.qgis.org/3.34/en/docs/user_manual/working_with_vector/attribute_table.html#using-the-field-calculator) from the Attribute Table's toolbar. <img src="./images/field-calculator-icon.png" style="width:4%;">
+*2*{: .circle .circle-purple} Now open the [Field Calculator](https://docs.qgis.org/3.44/en/docs/user_manual/working_with_vector/attribute_table.html#using-the-field-calculator){:target="_blank"} from the Attribute Table's toolbar. <img src="./images/field-calculator-icon.png" style="width:4%;">
     
 
 *3*{: .circle .circle-purple} Create a new field called "area_sqm" and set the output field type to decimal number with 1 decimal point (precision 1). Expand the **Geometry** options in the middle panel and double-click `$area`. Hit **OK** at the bottom of the dialogue window to run the calculation.
@@ -66,7 +66,7 @@ Clear your selection in the Attribute Table <img src="./images/clear-selection-i
 
 ---
 #### Resources for working with the Attribute Table
-- [QGIS Documentation for Working with the Attribute Table](https://docs.qgis.org/3.34/en/docs/user_manual/working_with_vector/attribute_table.html#index-0)
-- [Introducing the Attribute Table Interface](https://docs.qgis.org/3.34/en/docs/user_manual/working_with_vector/attribute_table.html#introducing-the-attribute-table-interface)
-- [Selecting features from the Attribute Table](https://docs.qgis.org/3.34/en/docs/user_manual/working_with_vector/attribute_table.html#selecting-features)
-- [Editing Attribute Values](https://docs.qgis.org/3.34/en/docs/user_manual/working_with_vector/attribute_table.html#editing-attribute-values)
+- [QGIS Documentation for Working with the Attribute Table](https://docs.qgis.org/3.44/en/docs/user_manual/working_with_vector/attribute_table.html#index-0){:target="_blank"}
+- [Introducing the Attribute Table Interface](https://docs.qgis.org/3.44/en/docs/user_manual/working_with_vector/attribute_table.html#introducing-the-attribute-table-interface){:target="_blank"}
+- [Selecting features from the Attribute Table](https://docs.qgis.org/3.44/en/docs/user_manual/working_with_vector/attribute_table.html#selecting-features){:target="_blank"}
+- [Editing Attribute Values](https://docs.qgis.org/3.44/en/docs/user_manual/working_with_vector/attribute_table.html#editing-attribute-values){:target="_blank"}
