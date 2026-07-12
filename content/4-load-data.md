@@ -162,6 +162,8 @@ To Do
 
 > There is one last step. Importantly, this file is still a CSV. It's simply been spatialized by QGIS. In order to edit the file, you'll have to export it in a geospatial file format such as a GeoJSON or Shapefile. To export a layer, right-click the layer and go to "Export". Then give it a name and location by clicking the tree dots next to the Layer Name input. Change the file format to GeoJSON. Because this file is point data containing coordinate data, we will set the CRS to `WGS84`. 
 
+> Drag the new spatial layer of `public-art` to the top of your Layers panel, and remove the CSV from your map. 
+
 
 <br>
 

@@ -61,3 +61,4 @@ If you cannot find the plugin "Next GIS Quick Map Services" only "Quick Map Serv
 
 <br>
 
+<img src="./images/save-icon.png" style="width:6%"> SAVE your project before moving on. 

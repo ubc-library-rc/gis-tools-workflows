@@ -5,7 +5,9 @@ nav_order: 4
 ---
 # Layer Attributes 
 
-Right-click (control-click) the parks layer of your choice and open the **Attribute Table**. Here you can see the tabular data associated with your parks. Note that there are several **attributes** (columns) that describe each **feature** (rows) in this dataset. Manually re-size the column widths until you can read each attribute.
+Right-click (control-click) the parks layer of your choice and open the **Attribute Table**. Here you can see the tabular data associated with your parks. 
+
+Note that there are several **attributes** (columns) that describe each **feature** (rows) in this dataset. Manually re-size the column widths until you can read each attribute.
 <!--describe what field is-->
 
 <!-- ![open att table](./images/open-att-table_20240620.png) -->
