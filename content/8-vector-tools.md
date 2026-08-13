@@ -157,25 +157,6 @@ If we were only interested in the general area within 500 meters of a cultural c
 
 
 
-## Difference
-**[Difference](https://docs.qgis.org/3.44/en/docs/user_manual/processing_algs/qgis/vectoroverlay.html#difference){:target="_blank"}** is like a spatial subtraction. Again, it will create a new layer so you don't have to worry about permanently altering your existing data (the correlate tool in ArcGIS, Erase, does just that). 
-
-
-To Do
-{: .label .label-green }
-
->* Just to practice, run the **Difference** tool to find areas that are within 500 meters of a cultural center, but are **not** parks. Your Input Layer will be `Buffered` and your Overlay Layer will be `van-parks`. It may help to rename the Buffered layer which was dissolved prior to running this tool. 
-
-<img src="./images/tools9.png" style="width:90%;">
-
-> Drag the output `Difference` to the top of your Layers panel, and uncheck extraneous layers. 
-
-
-<img src="./images/tools10.png" style="width:90%;">
-
-
-<br>
-
 
 ## Dissolve 
 **[Dissolve](https://docs.qgis.org/3.44/en/docs/user_manual/processing_algs/qgis/vectorgeometry.html#dissolve){:target="_blank"}** takes multiple features within 1 layer and dissolves the boundaries between them. This is exactly what happened when we checked the Dissolve option on in the Buffer tool. 
@@ -198,6 +179,27 @@ Open the **Dissolve** tool under **Vector geometry**
 
 <br>
 
+## Difference
+**[Difference](https://docs.qgis.org/3.44/en/docs/user_manual/processing_algs/qgis/vectoroverlay.html#difference){:target="_blank"}** is like a spatial subtraction. Again, it will create a new layer so you don't have to worry about permanently altering your existing data (the correlate tool in ArcGIS, Erase, does just that). 
+
+
+To Do
+{: .label .label-green }
+
+>* Just to practice, run the **Difference** tool to find areas that are within 500 meters of a cultural center, but are **not** parks. Your Input Layer will be `Buffered` and your Overlay Layer will be `van-parks`. It may help to rename the Buffered layer which was dissolved prior to running this tool. 
+
+<img src="./images/tools9.png" style="width:90%;">
+
+> Drag the output `Difference` to the top of your Layers panel, and uncheck extraneous layers. 
+
+
+<img src="./images/tools10.png" style="width:90%;">
+
+
+
+
+
+<br>
 
 ## Merge
 Writes QGIS: **[Merge](https://docs.qgis.org/3.44/en/docs/user_manual/processing_algs/qgis/vectorgeneral.html#merge-vector-layers){:target="_blank"}** "Combines multiple vector layers of the same geometry type into a single one." 

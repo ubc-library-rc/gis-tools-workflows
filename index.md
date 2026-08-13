@@ -24,11 +24,11 @@ This intermediate-level workshop is focused on common tools and workflows in QGI
 #### GIS Resources at UBC:
 <!-- - General Informational website for all things UBC GIS: [gis.ubc.ca](http://gis.ubc.ca/){:target="_blank"} -->
 - UBC Library guide for finding and working with GIS resources: [guides.library.ubc.ca/gis](http://guides.library.ubc.ca/gis){:target="_blank"}
-- Archive of [Research Commons workshops](https://ubc-library-rc.github.io/){:target="_blank"}
+- Archive of all [Research Commons workshops](https://ubc-library-rc.github.io/){:target="_blank"}
 - Research Commons [Events Calender](https://researchcommons.library.ubc.ca/events/){:target="_blank"} for upcoming facilitated workshops
 - Contact UBC Library’s Geospatial team: `library.gis@ubc.ca`
 - Schedule a 1:1 consult with the geospatial team [here](https://libcal.library.ubc.ca/appointments/research_commons#s-lc-public-pt){:target="_blank"}
-- For a more comprehensive introduction to mapping, you are welcome to explore the content of [Spatial Visualization in/for Digital Humanities Research](https://ubc-library-rc.github.io/gis-dhsi/){:target="_blank"}, a course developed and taught by Lily Demet and Alex Alisauskas at the 2026 Digital Humanities Summer Institute. Here, you will find comprehensive documentation (and practice data) for all kinds of mapping tools and workflows. 
+<!-- - For a more comprehensive introduction to mapping, you are welcome to explore the content of [Spatial Visualization in/for Digital Humanities Research](https://ubc-library-rc.github.io/gis-dhsi/){:target="_blank"}, a course developed and taught by Lily Demet and Alex Alisauskas at the 2026 Digital Humanities Summer Institute. Here, you will find comprehensive documentation (and practice data) for all kinds of mapping tools and workflows.  -->
 
 
 <p style="margin-top:90px"></p>
