@@ -61,17 +61,14 @@ The application Options window looks like the image below. Most customizations y
 <br>
 
 
-<!--Double check this works if i then add some other dataset-->
-
-## Project Properties
+<!-- ## Project Properties
 The [Project Properties](https://docs.qgis.org/3.44/en/docs/user_manual/introduction/qgis_configuration.html#project-properties){:target="_blank"} provide useful information about your QGIS project, such as it's Coordinate Reference System (CRS). Although the different data layers you add to a QGIS project may have different projections, QGIS will reproject everything 'on the fly' to match the Project CRS. Setting the project CRS doesn’t change the stored projections of each layer, only how they are rendered by QGIS. 
 
 Under **General** properties, make note of the units for area measurement. 
 
 ![project properties general](./images/project-properties-general.png)
-    
+     -->
 
-We will come back to the Project Properties shortly. 
 
 ---
 #### Resources for Project Setup
