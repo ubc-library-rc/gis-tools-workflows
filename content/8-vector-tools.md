@@ -2,6 +2,7 @@
 layout: default
 title: Vector Tools
 nav_order: 5
+parent: Part 1
 ---
 # Vector Tools
 

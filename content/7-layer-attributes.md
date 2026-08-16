@@ -2,6 +2,7 @@
 layout: default
 title: Layer Attributes
 nav_order: 4
+parent: Part 1
 ---
 # Layer Attributes 
 
