@@ -12,9 +12,8 @@ parent: Part 2
 
 We are going to create an animation of the development of Vancouver's Public Art installations over time using the `yearofinstallation` field. 
 
-<br>
 
-## Ensuring your Date Data is Formatted Properly
+### Ensuring your Date Data is Formatted Properly
 For the Temporal Controller plugin/tool to work, it needs to pull from a date field that has been properly formatted as date data. 
 
 <!-- This is why, in Part 1, we set the field type to `date` when loading in the CSV data to QGIS. To double-check what data type your field is formatted in, you can go to the Public Art layer Properties, and   -->
@@ -22,6 +21,7 @@ For the Temporal Controller plugin/tool to work, it needs to pull from a date fi
 
 If you are creating your own spreadsheet/CSV, try to ensure this happens when you are creating data by properly formatting the cells. However, if you are using data from elsewhere or you forgot to do so, there are ways to ensure that your date field is formatted as a date within QGIS using the Field Calculator in the Attribute Table or Properties.
 
+<br>
 
 ## Making a Map with Temporal Controller
 
