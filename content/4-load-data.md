@@ -119,7 +119,7 @@ Under **General** properties, make note of the units for area measurement.
 <br>
 
 ## Loading CSV data to QGIS
-If you try and drag `public-art.csv` or `public-art-artists.csv` to your map canvas, nothing will show up and the layer will look different in your Layers panel. That's because these two files are formatted as CSVs.
+If you try and drag `public-art.csv` or `artist-info.csv` to your map canvas, nothing will show up and the layer will look different in your Layers panel. That's because these two files are formatted as CSVs.
 
 Tabular data stored in CSV (comma separated value) files can be uploaded to a GIS and rendered spatial so long as latitude and longitude are given in two distinct columns and their values stored as numbers. *Tabular data must be in a CSV file format with latitude and longitude stored as numbers in two separate columns before uploading to QGIS.* 
 
@@ -153,13 +153,14 @@ To Do
 
 <br>
 
-> Scroll over and set the `yearofinstallation` field to **Date** data format.
+<!--commented out bc it takes string and makes it number and then actually hard to set to date from fields form in properties later on-->
+<!-- > Scroll over and set the `yearofinstallation` field to **Date** data format.
 
 <img src="./images/load-data10.png" style="width:80%">
 <img src="./images/load-data11.png" style="width:80%">
 
 
-<br>
+<br> -->
 
 >  Now click **Add** at the bottom right-hand corner to add your CSV as a spatial layer to your map. Once you add the layer, the Data Source Manager will not go away, so you’ll have to close it. `public-art` should now be added to your map canvas.
 

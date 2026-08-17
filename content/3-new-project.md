@@ -17,7 +17,7 @@ parent: Project Setup
 
 To save your project, navigate to the `Project` Menu at the stop of your screen and go down to "Save". 
 
-> - When you Save a project (or a dataset, for that matter), you need to give it both a *name* and a *location*. It's best practice to save your QGIS projects to the folder where you keep your data for the project. So: save the project to your  `qgis-tools-workshop` folder and give it a name such as `qgis-workshop_FirstnameLastname`. You'll notice the file extension is `.qgz`. You can learn more about QGIS file formats [here](https://docs.qgis.org/3.44/en/docs/user_manual/appendices/qgis_file_formats.html){:target="_blank"}.
+> - When you Save a project (or a dataset, for that matter), you need to give it both a *name* and a *location*. It's best practice to save your QGIS projects to the folder where you keep your data for the project. So: save the project to your  `qgis-tools-workshop/Part1` folder and give it a name such as `qgis-workshop_FirstnameLastname`. You'll notice the file extension is `.qgz`. You can learn more about QGIS file formats [here](https://docs.qgis.org/3.44/en/docs/user_manual/appendices/qgis_file_formats.html){:target="_blank"}.
 
 ![save as](./images/setup1.png)
 

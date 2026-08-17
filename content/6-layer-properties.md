@@ -84,7 +84,7 @@ Add labels for the names of parks to your map.
 ## JOIN
 Joins create a connection between two layers, appending the attribute information from one layer to another. To add a join, there must be a shared field between the two layers that matches exactly. 
 
-Let's join the information on artists from the file `public-art-artists.csv` to our spatial layer, `public-art`. 
+Let's join the information on artists from the file `artist-info.csv` to our spatial layer, `public-art`. 
 
 
 
@@ -93,9 +93,9 @@ To Do
 
 To add a join, go to the Layer Properties of the layer you want to append information *to*. 
 
->* Drag `public-art-artists.csv` to your QGIS Project. 
+>* Drag `artist-info.csv` to your QGIS Project. 
 
->* Open the Attribute Tables of both `public-art-artists` and `public-art`. Which Fields match? Are they both formatted the same data type?
+>* Open the Attribute Tables of both `artist-info` and `public-art`. Which Fields match? Are they both formatted the same data type?
 
 >* Open the **Properties** of `public-art` and go to the **Joins** property. You'll see there are no current joins to this layer. Click the green plus icon to add a new join.
 
@@ -107,10 +107,10 @@ A new window will pop up. This window is easily lost behind other QGIS windows.
 <br>
 
 
->* The **Join layer** will be `public-art-artists`
->* The **Join field**, the field of `public-art-artists` that matches one in `public-art`, will be `ArtistID`
+>* The **Join layer** will be `artist-info`
+>* The **Join field**, the field of `artist-info` that matches one in `public-art`, will be `ArtistID`
 >* The **Target field** will be `artists`
->* IMPORTANTLY, Check **Joined fields**. Here' you can select which fields you want to join from `public-art-artists`. 
+>* IMPORTANTLY, Check **Joined fields**. Here' you can select which fields you want to join from `artist-info`. 
 
 <br>
 <img src="./images/layer8.png" style="width:70%;">

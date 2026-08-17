@@ -12,13 +12,13 @@ For this workshop, a handful of vector datasets of Vancouver have been provided 
 
 
 ## Given Data
-Inside the `qgis-tools-workshop`  you should see the following files, along with their associated 'sidecar files' which contain vital metadata:
+Inside the `qgis-tools-workshop/Part1` folder you should see the following files, along with their associated 'sidecar files' which contain vital metadata:
 
 - `van-parks.shp`, polygon representations of Vancouver's [public parks](https://opendata.vancouver.ca/explore/dataset/parks-polygon-representation/information/){:target="_blank"}
 - `burnaby-parks.shp`, polygon representations of Burnaby's [public parks](https://data.burnaby.ca/search?tags=parks%2520%2526%2520trails){:target="_blank"}
 - `local-area-boundaries.shp`, [neighborhood extents](https://opendata.vancouver.ca/explore/dataset/local-area-boundary/information/?disjunctive.name){:target="_blank"} as designated by the City of Vancouver 
 - `public-art.csv`, a CSV file containing point data for [public art](https://opendata.vancouver.ca/explore/dataset/public-art/information/){:target="_blank"} across the City of Vancouver
-- `public-art-artists.csv`, a CSV file containing metadata on [the artists behind public art](https://opendata.vancouver.ca/explore/dataset/public-art-artists/information/){:target="_blank"} for the City of Vancouver
+- `artist-info.csv`, a CSV file containing metadata on [the artists behind public art](https://opendata.vancouver.ca/explore/dataset/public-art-artists/information/){:target="_blank"} for the City of Vancouver
 - `cultural-spaces.geojson`, a point layer of [cultural spaces](https://opendata.vancouver.ca/explore/dataset/cultural-spaces/information/?disjunctive.type&disjunctive.primary_use&disjunctive.ownership){:target="_blank"} across the City of Vancouver
 - `census-tracts.shp`, [census tracts](https://www12.statcan.gc.ca/census-recensement/2021/geo/sip-pis/boundary-limites/index2021-eng.cfm?year=21){:target="_blank"} from Statistics Canada, clipped to only the City of Vancouver. 
 
@@ -66,6 +66,6 @@ Practice downloading geospatial data for public parks of the city of your choice
 
 <br>
 
-Before moving on, make sure all downloaded files are unzipped and moved to your `qgis-tools-workshop` folder.
+Before moving on, make sure all downloaded files are unzipped and moved to the `Part1` subfolder of your `qgis-tools-workshop` folder.
 {: .warn}
 
