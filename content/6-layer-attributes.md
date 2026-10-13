@@ -45,22 +45,24 @@ What if you wanted to have QGIS calculate the area of each park? This requires e
 <img src="./images/field-calculated.png" style="width:100%;">
 
 *5*{: .circle .circle-purple} Save edits and toggle off editing mode. Save your QGIS project again.
-<img src="./images/toggle-off-editing1.png" style="width:10%;">
-<img src="./images/toggle-off-editing2.png" style="width:10%;">
-<img src="./images/toggle-off-editing3.png" style="width:10%;">
+<br>
+<img src="./images/toggle-off-editing1.png" style="width:15%;">
+<br>
+<img src="./images/toggle-off-editing2.png" style="width:15%;">
+<br>
+<img src="./images/toggle-off-editing3.png" style="width:15%;">
 
 
-<!-- ## Select all parks where area is less than --
-Run a selection to select for all parks that --> 
 
+<!-- 
 ## Select and export the largest park 
 
 Order the parks by area in descending order. Select the park with the greatest area and zoom to it on your map canvas.
 
-In your **Layers Panel**, right-click your parks layer and choose **Export** **-->** **Save Selected Features As...**. Save the selected park to your workshop folder with the name of the park as its filename. 
+In your **Layers Panel**, right-click your parks layer and choose **Export** **->** **Save Selected Features As...**. Save the selected park to your workshop folder with the name of the park as its filename. 
 
 ### Clear selection
-Clear your selection in the Attribute Table <img src="./images/clear-selection-icon.png" style="width:4%;">, close the Attribute Table, and return to the main QGIS interface. You can also clear your selection from the main QGIS Interface using the same icon from the main toolbar. 
+Clear your selection in the Attribute Table <img src="./images/clear-selection-icon.png" style="width:4%;">, close the Attribute Table, and return to the main QGIS interface. You can also clear your selection from the main QGIS Interface using the same icon from the main toolbar.  -->
 
 <br><br>
 
