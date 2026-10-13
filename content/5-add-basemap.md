@@ -7,7 +7,7 @@ parent: Project Setup
 
 # Add a Basemap      
 
-A basemap is helpful to give spatial context to your data as you work. One way to add a basemap is through a plugin. [QGIS plugins](https://plugins.qgis.org/) are user developed tools that extend QGIS functionality beyond the basics. 
+A basemap is helpful to give spatial context to your data as you work. One way to add a basemap is through a plugin. [QGIS plugins](https://plugins.qgis.org/){:target="_blank"}  are user developed tools that extend QGIS functionality beyond the basics. 
 
 
 
