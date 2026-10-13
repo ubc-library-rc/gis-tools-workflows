@@ -1,9 +1,9 @@
----
+<!-- ---
 layout: default
 title: Layer Properties
 nav_order: 3
 parent: Part 1
----
+--- -->
 # Layer Properties
 
 
