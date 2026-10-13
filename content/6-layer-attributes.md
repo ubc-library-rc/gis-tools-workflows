@@ -1,32 +1,33 @@
 ---
 layout: default
-title: Layer Attributes
-nav_order: 4
+title: 1. Layer Attributes
+nav_order: 2
 parent: Part 1
 ---
 # Layer Attributes 
 
-Right-click (control-click) the parks layer of your choice and open the **Attribute Table**. Here you can see the tabular data associated with your parks. 
+Right-click (control-click) the parks layer of your choice and open the **Attribute Table**. Here you can see the tabular data associated with your parks vector layer.
 
-Note that there are several **attributes** (columns) that describe each **feature** (rows) in this dataset. Manually re-size the column widths until you can read each attribute.
-<!--describe what field is-->
+The **Attributes** are the **field** (column) headings that describe each **feature** (row). Manually re-size the column widths until you can read each attribute. 
 
-<!-- ![open att table](./images/open-att-table_20240620.png) -->
+
+
 <img src="./images/van-parks-att-table.png" style="width:100%;">
 
-- At the top of the **Attribute Table** you will see the number of features loaded and the number selected. There are a total of 245 parks in the dataset downloaded for Vancouver. 
+> - At the top of the **Attribute Table** you will see the number of features loaded and the number selected. There are a total of 254 parks in the dataset downloaded for Vancouver. 
 
-- You can sort columns by ascending/descending (number value or alphabetically) by simply clicking the column headings.  
+> - You can sort columns by ascending/descending (number value or alphabetically) by simply clicking the column headings.  
 
-- You can toggle between **Form view** and **Table view** at the bottom-right corner of the window.
+> - You can toggle between **Form view** and **Table view** at the bottom-right corner of the window.
 
-- If a column's contents are right right-justified, it means the values are stored as numbers; if a column's contents are left-justified, the values are formatted as text. This cue can come in handy when troubleshooting. If you ever find yourself attempting to symbolize your data based on an attribute value such as area but it isn't working, the issue may be that the attribute in question is stored as text rather than a numerical value. This can be fixed by editing the Attribute Table. 
+> - **If a column's contents are right right-justified, it means the values are stored as numbers; if a column's contents are left-justified, the values are formatted as text.** This knowledge will come in handy when troubleshooting. If you ever find yourself attempting to symbolize your data based on an attribute value such as area but it isn't working, the issue may be that the attribute in question is stored as text rather than a numerical value. This can be fixed by editing the Attribute Table OR by xyz... INCLUDE DOCUMENTATION
 
+
+<BR>
 
 
 
 ## Use Field Calculator to calculate park areas
-
 What if you wanted to have QGIS calculate the area of each park? This requires editing the attribute table to create a new column and then populate it with the geometry calculation.
 
 *1*{: .circle .circle-purple} Toggle editing mode. <img src="./images/toggle-edit-icon.png" style="width:4%;"> When editing mode is toggled on you will also see the little pencil in the layers panel. 
@@ -44,7 +45,9 @@ What if you wanted to have QGIS calculate the area of each park? This requires e
 <img src="./images/field-calculated.png" style="width:100%;">
 
 *5*{: .circle .circle-purple} Save edits and toggle off editing mode. Save your QGIS project again.
-<img src="./images/toggle-off-editing_20240620.png" style="width:10%;">
+<img src="./images/toggle-off-editing1.png" style="width:10%;">
+<img src="./images/toggle-off-editing2.png" style="width:10%;">
+<img src="./images/toggle-off-editing3.png" style="width:10%;">
 
 
 <!-- ## Select all parks where area is less than --
@@ -54,16 +57,13 @@ Run a selection to select for all parks that -->
 
 Order the parks by area in descending order. Select the park with the greatest area and zoom to it on your map canvas.
 
-<img src="./images/zoom-to-selection.png" style="width:100%;">
-
 In your **Layers Panel**, right-click your parks layer and choose **Export** **-->** **Save Selected Features As...**. Save the selected park to your workshop folder with the name of the park as its filename. 
 
 ### Clear selection
 Clear your selection in the Attribute Table <img src="./images/clear-selection-icon.png" style="width:4%;">, close the Attribute Table, and return to the main QGIS interface. You can also clear your selection from the main QGIS Interface using the same icon from the main toolbar. 
 
+<br><br>
 
-
-<!-- note- The <code><b>Attribute Table</b></code> contains many useful clues for troubleshooting. Checking the attribute table as soon as you load a new layer will give you a sense if your data is in tact and what you might need to modify.  -->
 
 
 
