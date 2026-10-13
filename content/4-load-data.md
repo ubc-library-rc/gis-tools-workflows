@@ -42,16 +42,14 @@ Because our data is all organized in a single folder, we you can drag and drop t
 
 > Add your vector data to your QGIS project in the following order:
 
->- `local-area-boundaries.shp`
-- `census-tracts.shp`
+- `city-outline.geojson`
+- `neighbourhoods.geojson`
 - `van-parks.shp`
--  `burnaby-parks.shp`
-- The parks you downloaded yourself
+- `burnaby-parks.shp`
 - `cultural-spaces.geojson`
 
-> Accept any transformation warnings. 
 
-> You should see the layers add to your screen. 
+You should see the layers add to your screen. (Accept any transformation warnings that may pop up while trying to add data.)
 
 <img src="./images/load-data1.png" style="width:100%">
 
@@ -93,16 +91,11 @@ Note: You can also see the same CRS, although designated `EPSG:4326`, is visible
 > Let's first change the CRS to something specific to Vancouver. In the Filter search bar at the top of the window, copy/paste in the following CRS: `NAD83 / UTM zone 10N`. 
 
 <img src="./images/load-data4.png" style="width:100%">
+<br>
 
 > Click **OK** and your map should already look better. 
 
 <img src="./images/load-data5.png" style="width:100%">
-
-<!-- ensure the project coordinate reference system (CRS) is set to `WGS_1984_Web_Mercator_Auxiliary_Sphere`. 
-
-![project properties general](./images/project-properties-crs.png) -->
-
-
 <br>
 
 <img src="./images/save-icon.png" style="width:6%"> Before continuing, SAVE your project. 
@@ -110,12 +103,14 @@ Note: You can also see the same CRS, although designated `EPSG:4326`, is visible
 
 <br>
 
-### Check 
+### Check Measurement Units
 After setting the project CRS, check the units of measurement.
-Under **General** properties, make note of the units for area measurement. 
+Under **General** properties, make note of the units for area measurement. (*Hint: You will need to know this information for when you run area calculations.*) 
+<!-- You'll notice the Ellipsoid being used is `WGS 84`. You might be thinking: Isn't that the projection we just changed our project from? Yes! WGS 84 is a Datum -->
 
 ![project properties general](./images/project-properties-general.png)
     
+<br>
 <br>
 
 ## Loading CSV data to QGIS
@@ -235,12 +230,7 @@ You can reorder your layers at any time by dragging them up or down.
 - Sometimes you will might download a new dataset into your data folder but it won't appear in your folder within the Browser Panel. If this happens, try **refreshing** your directory connections in your Browser Panel either by clicking the Refresh icon or by control-clicking the folder in question.
 - If you move your data to a different folder location you will get an error when you next open your QGIS Project. Either allow QGIS to auto-find it, connect the new folder location, or move the data back. 
 
- <img src="./images/refresh-browser_20240620.png" style="width:50%;"> 
-
-
-
-### Set project CRS
-if added parks data elsewher e---  -->
+ <img src="./images/refresh-browser_20240620.png" style="width:50%;">   -->
 
 
 
