@@ -5,6 +5,5 @@ nav_order: 2
 has_children: true
 ---
 # Part 1
-In the following section you will learn how to adjust layer properties, including **symbology** and **labelling**, as well as how to add layer **joins**. You will also learn how to **edit the attribute table** by adding columns and running field calculations. Finally, you will be introduced to a variety of common tools useful for map making and spatial analysis in QGIS. 
 
-<!--add note about changing field type or name in the fields form of the layer properties-->
+In Part 1 of this 2-day workshop, you will learn to use a variety of vector tools, as well as practice joining layers, editing the attribute table, and run different kinds of selections to explore your data. The tools and workflows outlined are all useful for map making with QGIS. 
