@@ -1,56 +1,12 @@
 ---
 layout: default
 title: Vector Tools
-nav_order: 5
+nav_order: 6
 parent: Part 1
 ---
 # Vector Tools
-
-
 This page will introduce some vector tools common in map making and spatial analysis. Vector tools can be searched for in the **Processing [Toolbox](https://docs.qgis.org/3.44/en/docs/user_manual/processing/toolbox.html){:target="_blank"}** which can be opened from the **Processing menu** at the top of your screen. They can also be accessed from the **Vector** menu, where they are grouped by task: Geoprocessing, Geometry, Analysis, Research, and Data Management. 
 
->### Geoprocessing 
->{: .no_toc}
->Geoprocessing tools are useful for modifying the spatial extent of features, particularly in relationship to other layers. Geoprocessing is often done in the beginning of a QGIS project to prepare the data layers for further analysis. The Geoprocessing tools we will introduce today are: **Clip**, **Buffer**, **Difference**, and **Dissolve**. 
-<!-- > <img src="./images/vector-geoprocessing_20240622.png" style="width:60%;"> -->
-
-
->### Geometry
->{: .no_toc}
->Geometry tools are useful for operations to do with the geometric shape of the feature layer. The Geometry tool we will introduce today is: **Centroids**.
-
-
->### Analysis
->{: .no_toc}
->Analysis tools are useful for performing basic statistical analysis on vector layers. The Analysis tool we will introduce today is: **Count points in polygon**.
-
->### Research
->{: .no_toc}
->Research tools support further exploration of your data by running selections and generating random points for test scenarios. The Research tools we will introduce today are: **Select by Location** and **Select within Distance**. 
-
->### Data Management
->{: .no_toc}
->Data Management tools is useful for modifying the data layer itself. The Data Management tools we will introduce today are: **Merge Vector Layers**, **Join Attributes by Location**, and **Reproject Layer**. 
-
-<details open markdown="block">
-  <summary>
-    Page Contents
-  </summary>
-  {: .text-delta }
- - TOC
-{:toc}
-</details>
-
-----
-
-# Open the Processing Toolbox
-{: .no_toc}
-
-For today, we'll search for tools from the **Processing Toolbox**. Go ahead and open the Processing toolbox now. 
-> - If you don't see the Processing menu at the top of your screen, you may have to enable the processing plugin. Click on the **Plugins** menu at the top of your screen, and then on **Manage and Install Plugins…**. In the search bar, type in "Processing". Make sure to **select the Processing box**, and then click Close. You should now see the Toolbox icon and be able to proceed with the next steps. Once enabled, you will be able to access the Processing menu anytime you open this or any other QGIS project. 
-
-
-<br>
 
 > Make sure your map canvas is zoomed to Vancouver.
 
@@ -58,24 +14,20 @@ For today, we'll search for tools from the **Processing Toolbox**. Go ahead and 
 
 <br>
 
+----
+
+## Geoprocessing
+Geoprocessing tools are useful for modifying the spatial extent of features, particularly in relationship to other layers. Geoprocessing is often done in the beginning of a QGIS project to prepare the data layers for further analysis. Indeed, the act of pre-processing data, essentially doing anything to get your project ready to run spatial analysis and/or create a map, is often just referred to as geoprocessing. The Geoprocessing tools we will introduce today are: **Clip**, **Buffer**, **Difference**, and **Dissolve**, **Intersection**, and **Union**. 
 
 
 
 
-## Clip
+### Clip
 The first tool we'll use is **[Clip](https://docs.qgis.org/3.44/en/docs/user_manual/processing_algs/qgis/vectoroverlay.html#clip){:target="_blank"}**, one of the most frequently used tools. Like a cookie cutter, Clip takes an Input layer (the cookie *dough*) and an Overlay layer (the cookie *cutter*), clipping the Input layer to the extent of the Overlay layer. Clip helps identify a set of points from a larger dataset within a particular area. It is a useful tool for highlighting a particular area of your map, honing your extent to certain area of interest. 
 
 To Do
 {: .label .label-green }
-
-As it stands, `local-area-boundaries`, the layer visualizing Vancouver's neighborhoods juts out past the shoreline. 
-
-<img src="./images/tools2.png" style="width:48%;">
-<img src="./images/tools3.png" style="width:48%;">
-
-The `census-tracts` layer on the other hand nicely hugs the shore. Let's practice the **clip** tool by clipping `local-area-boundaries` to `census-tracts`. That way we can have a layer visualizing Vancouver neighborhoods where the shoreline is still visible. 
-
-
+Let's clip 
 > In the Processing Panel, search for "Clip". Make sure you open the tool under **Vector Overlay**.
 
 <img src="./images/clip-tool-search.png" style="width:50%;">
@@ -106,7 +58,7 @@ The attribute table will be the same. The only thing different is the outline of
 
 <br>
 
-## Buffer
+### Buffer
 **[Buffer](https://docs.qgis.org/3.44/en/docs/gentle_gis_introduction/vector_spatial_analysis_buffers.html){:target="_blank"}** is probably the second most used/useful tool. Like the name implies, buffer creates a new layer that buffers a distance around points, lines, or polygons, and includes the area of the feature(s) buffered. Buffer is therefore useful for determining spatial proximity but defining a distance zone around features. For example, you could use Buffer areas prone to flooding around a water feature, or to determine a radio signal’s geographic influence or the area of a neighborhood disturbed by construction sounds.
 
 
@@ -159,7 +111,7 @@ If we were only interested in the general area within 500 meters of a cultural c
 
 
 
-## Dissolve 
+### Dissolve 
 **[Dissolve](https://docs.qgis.org/3.44/en/docs/user_manual/processing_algs/qgis/vectorgeometry.html#dissolve){:target="_blank"}** takes multiple features within 1 layer and dissolves the boundaries between them. This is exactly what happened when we checked the Dissolve option on in the Buffer tool. 
 
 
@@ -180,7 +132,7 @@ Open the **Dissolve** tool under **Vector geometry**
 
 <br>
 
-## Difference
+### Difference
 **[Difference](https://docs.qgis.org/3.44/en/docs/user_manual/processing_algs/qgis/vectoroverlay.html#difference){:target="_blank"}** is like a spatial subtraction. Again, it will create a new layer so you don't have to worry about permanently altering your existing data (the correlate tool in ArcGIS, Erase, does just that). 
 
 
@@ -195,8 +147,22 @@ To Do
 
 
 <img src="./images/tools10.png" style="width:90%;">
+<br>
+
+<br>
+
+### Intersection
+
+### Union
 
 
+
+<br><br>
+
+
+
+## Data Management
+Data Management tools is useful for modifying the data layer itself. The Data Management tools we will introduce today are: **Merge Vector Layers**, **Join Attributes by Location**, and **Reproject Layer**. 
 
 
 
@@ -230,89 +196,10 @@ To Do
 
 <br>
 
-## Count points in polygon
-This tool will count the number of points in each polygon and append the total to each feature of the input polygon as a new attribute.
 
->* Count how many `public-art` features are in each Vancouver neighborhood. *Which neighborhood has the most public art?*
+Join atts by location
 
 
-<br>
-
-## Centroids
-- **Centroids** will calculate the geometric center of each feature and output a layer consisting of those points. This is useful if you have a polygon layer and want to turn it into a point layer. 
-
->* To practice, run **Centroids** on `local-areas-clip`.
+reproject layer 
 
 
-<br>
-
-## Select by location
-**[Select by location](https://docs.qgis.org/3.44/en/docs/user_manual/processing_algs/qgis/vectorselection.html#select-by-location){:target="_blank"}** allows you to select features in 1 layer based on their spatial relationship with those in another layer using various spatial operators. 
-
-<Br>
-
->* Use **Select by Location** to find all parks from your `Merged` layer that are *within* Vancouver. This should successfully highlight just those parks that are within the city limits again. 
-
-<img src="./images/tools15.png" style="width:90%;">
-<br>
-<img src="./images/tools16.png" style="width:100%;">
-
-
-<!--note about building on selections-->
-
-Cancel your selection from the Selections Toolbar. 
-
-<img src="./images/selections-toolbar.png" style="width:30%;">
-
-Note that you can also locate both the **Select by Location** and the **Select within Distance** tools from the Selections toolbar. 
-
-<img src="./images/selections-toolbar2.png" style="width:70%;">
-
-<br>
-
-
-
-## Select within Distance
-Slightly different than the above tool, **[Select within distance](https://docs.qgis.org/3.44/en/docs/user_manual/processing_algs/qgis/vectorselection.html#select-within-distance){:target="_blank"}** "creates a selection in a vector layer. Features are selected wherever they are within the specified maximum distance from the features in an additional reference layer" (QGIS). 
-
-<img src="./images/select-distance-tool-search.png" style="width:50%">
-
-
-
-> * Let's practice by selecting all `public-art` within `100 meters` of Cultural Space. Remember to use your reprojected version of `cultural-spaces` as your . You may need to run **Reproject layer** on `public-art` to assign it the project CRS, `NAD83 / UTM zone 10N`, as well before you can run this tool. 
-
-<br>
-
-<img src="./images/tools17.png" style="width:90%;">
-
-<br>
-
-<img src="./images/tools18.png" style="width:90%;">
-
-<br><br>
-
-# Designing Workflows
-Now it's time to put everything you learned together by designing workflows to answer spatial questions. Using the tools above, think through how you might solve for the following... 
-
-<!-- *1*{: .circle .circle-purple} How would you determine Instead of using the tool "Select within distance", how could you use clip and buffer to find out the number of bus stops within 50 meters of a historic public bath?
-
-*2*{: .circle .circle-purple}
- -->
-
-*1*{: .circle .circle-purple} Create a layer that visualizes areas of Vancouver that are NOT within 300 meters of either a cultural center or public art feature. 
-
-
-*2*{: .circle .circle-purple} Which Vancouver neighborhood has the fewest total parks?
-
-
-*3*{: .circle .circle-purple} Which census tracts have a cultural center? 
-
-
-
-<!-- centroids of parks, count points in polygons (parks) then check attribute table -->
-
-<!-- ---
-#### Resources for further exploration 
-- [QGIS Beginner Guide](https://docs.qgis.org/3.44/en/docs/training_manual/vector_analysis/basic_analysis.html)
-- [Working with Vector Data in QGIS](https://docs.qgis.org/3.34/en/docs/user_manual/working_with_vector/index.html)
-- [Vector Overlay Tools](https://docs.qgis.org/3.34/en/docs/user_manual/processing_algs/qgis/vectoroverlay.html#clip) -->
