@@ -29,7 +29,7 @@ If you are creating your own spreadsheet/CSV, try to ensure this happens when yo
 
 <img src="./images/fields-form.png" style="width:100%;">
 
-Take a look at the `Date Opened` field. As you can see, it is categorized as an integer. We need to make sure it is a date to work with the [Temporal Controller](https://ubc-library-rc.github.io/gis-dhsi/content/day3/temporal-controller.html){:target="_blank"} plugin, so we are going to create a new date field for that plugin to work with.
+Take a look at the `yearOfInstallation` field. As you can see, it is categorized as an integer. We need to make sure it is a date to work with the [Temporal Controller](https://ubc-library-rc.github.io/gis-dhsi/content/day3/temporal-controller.html){:target="_blank"} plugin, so we are going to create a new date field for that plugin to work with.
 
 <br>
 
