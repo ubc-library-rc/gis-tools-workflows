@@ -29,7 +29,7 @@ If you are creating your own spreadsheet/CSV, try to ensure this happens when yo
 
 <img src="./images/fields-form.png" style="width:100%;">
 
-Take a look at the `yearOfInstallation` field. As you can see, it is categorized as an integer. We need to make sure it is a date to work with the [Temporal Controller](https://ubc-library-rc.github.io/gis-dhsi/content/day3/temporal-controller.html){:target="_blank"} plugin, so we are going to create a new date field for that plugin to work with.
+Take a look at the `“yearofinstallation”` field. As you can see, it is categorized as an integer. We need to make sure it is a date to work with the [Temporal Controller](https://ubc-library-rc.github.io/gis-dhsi/content/day3/temporal-controller.html){:target="_blank"} plugin, so we are going to create a new date field for that plugin to work with.
 
 <br>
 
@@ -49,9 +49,9 @@ In the field calculator, click “Create a new field.” As your Output field na
 
 We are going to use the expression “to date”, which converts a string into a date format. You can find it under the Date and Time expression menu. Since our date is only entered as a year, we have to tell the expression that’s the output we want. 
 
-> Write the following: ```to_date (“Date Opened” , ‘yyyy’)```
+> Write the following: ```to_date (“yearofinstallation” , ‘yyyy’)```
 
-The date opened is our current field, and YYYY is the date output we want in the new field. 
+The year of installation is our current field, and YYYY is the date output we want in the new field. 
 
 > Click OK. You should see a new Date_Clean field in your attribute table. Now we can connect this data to Temporal Controller!
 
@@ -66,7 +66,7 @@ Make sure to click the pencil icon again to turn off editing mode for your attri
 
 > - Click Dynamic Temporal Control
 > - Select Single Field with Date/Time as the configuration and keep the default Limits.
-> - Select the Date_Clean field if it hasn’t already, and change the event duration to 1 year (this will make the animation go year by year; you could set it for any time interval depending on the kind of data you have).
+> - Select the Installation_date field if it hasn’t already, and change the event duration to 1 year (this will make the animation go year by year; you could set it for any time interval depending on the kind of data you have).
 > - Click accumulate features over time to have the features remain on the layer as they are added and as time progresses.
 
 <img src="./images/TemporalController5.png" style="width:100%;">
